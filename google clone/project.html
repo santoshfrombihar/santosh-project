@@ -1,0 +1,127 @@
+<html>
+  <head>
+    </head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+      body{
+        font-family:Arial,sans-serif;
+      }
+
+      nav{
+          text-align:right;
+      }
+      section{
+          text-align:center;
+      }
+      .menu-item{
+        font-size: 13px;
+        color:rgba(0,0,0,0.87);
+        text-decoration:none;
+        position: relative;
+        top:-16px;
+        margin-right: 16px;
+
+
+      }
+      #dropdown-menu{
+          position:relative;
+          top:-10px;
+          margin-right:16px;
+      }
+
+      .menu-item:hover{
+        text-decoration: underline;
+      }
+      #profile-pic{
+          width:38px;
+          height:38px;
+          border-radius: 40px;
+      }
+    #search-box{
+        width:582px;
+        color:#222;
+        border:1px solid #dfe1e5;
+        font-size:13px;
+        padding:14px;
+        border-radius: 24px; 
+        outline: none;
+        width:100%;
+    }
+   
+   #inp{
+     position: relative;
+    width:582px;
+    display:inline-block;
+   }
+       .mic{
+      position: absolute;
+      right:5px;
+      top:10px;
+      width:28px;
+      height:22px;
+       }
+       .srh{
+      position: absolute;
+      left:10px;
+      top:10px;
+      width:28px;
+       }
+
+     .b1{
+         margin-top: 40px;
+         width:140px;
+         height:36px;
+         border-style: none;
+         font-family: arial,sans-serif;
+        font-size:14;
+
+     }
+     .b1:hover{
+       box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+    outline: none;
+     }
+
+     footer{
+      
+      padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+     }
+   
+
+    </style>
+
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a class="menu-item" href="\">Gmail</a>
+        <a class="menu-item" href="\">Images</a>
+        <i id="dropdown-menu" class="material-icons">apps</i>
+        <img id="profile-pic" src="https://lh3.googleusercontent.com/ogw/ADGmqu_XX1dJqRpJZRDk4LK_H_edI0KR8Hg3DfYVf5-Y=s32-c-mo" alt="profile-pic">
+      </nav>
+    </header>
+    <main>
+        <section>
+            <img id="google-logo" src="https://www.google.co.in/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+
+            <br>
+            <div id="inp">
+                <input  id="search-box" >
+                <img  class="mic" src="mic.png" >
+                <img class="srh" src="serch.png" >
+           
+            </div>
+             
+            <br>
+            <button class="b1">Google Search</button>
+            <button class="b1">l'm Feeling Lucky</button>
+        </section>
+    </main>
+   
+  </body>
+</html>
